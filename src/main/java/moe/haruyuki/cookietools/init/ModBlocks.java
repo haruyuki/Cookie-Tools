@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ModBlocks {
 
-    public static final List<Block> BLOCKS = new ArrayList<Block>();
+    public static final List<Block> BLOCKS = new ArrayList<>();
 
     public static final Block COOKIE_BLOCK = new BlockBase("cookie_block", Material.IRON);
 

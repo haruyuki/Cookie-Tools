@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ModItems {
 
-    public static final List<Item> ITEMS = new ArrayList<Item>();
+    public static final List<Item> ITEMS = new ArrayList<>();
 
     public static final Item COOKIE_POWDER = new ItemBase("cookie_powder");
     public static final Item COOKIE_DUST = new ItemBase("cookie_dust");
