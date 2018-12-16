@@ -1,5 +1,6 @@
 // Blocks
 tile.cookie_block.name=Cookie Block
+tile.cookie_dirt.name=Cookie Dirt
 
 // Items
 item.cookie_powder.name=Cookie Powder
