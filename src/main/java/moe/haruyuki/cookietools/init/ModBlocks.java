@@ -1,6 +1,6 @@
 package moe.haruyuki.cookietools.init;
 
-import moe.haruyuki.cookietools.blocks.BlockBase;
+import moe.haruyuki.cookietools.blocks.CookieBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
@@ -11,6 +11,6 @@ public class ModBlocks {
 
     public static final List<Block> BLOCKS = new ArrayList<>();
 
-    public static final Block COOKIE_BLOCK = new BlockBase("cookie_block", Material.IRON);
+    public static final Block COOKIE_BLOCK = new CookieBlock("cookie_block", Material.IRON);
 
 }
