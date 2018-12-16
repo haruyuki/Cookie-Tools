@@ -1,7 +1,9 @@
 package moe.haruyuki.cookietools.util.handlers;
 
+import moe.haruyuki.cookietools.init.ModBlocks;
 import moe.haruyuki.cookietools.init.ModItems;
 import moe.haruyuki.cookietools.util.IHasModel;
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -18,6 +20,12 @@ public class RegistryHandler {
     }
 
     @SubscribeEvent
+    public static void onBlockRegister(RegistryEvent.Register<Block> event) {
+
+        event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
+    }
+
+    @SubscribeEvent
     public static void onModelRegister(ModelRegistryEvent event) {
 
         for (Item item : ModItems.ITEMS) {
@@ -25,6 +33,14 @@ public class RegistryHandler {
             if (item instanceof IHasModel) {
 
                 ((IHasModel)item).registerModels();
+            }
+        }
+
+        for (Block block : ModBlocks.BLOCKS) {
+
+            if (block instanceof IHasModel) {
+
+                ((IHasModel)block).registerModels();
             }
         }
     }
