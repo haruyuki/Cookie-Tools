@@ -1,5 +1,6 @@
 package moe.haruyuki.cookietools;
 
+import moe.haruyuki.cookietools.init.ModRecipes;
 import moe.haruyuki.cookietools.proxy.CommonProxy;
 import moe.haruyuki.cookietools.util.Reference;
 import net.minecraftforge.fml.common.Mod;
@@ -21,7 +22,10 @@ public class CookieTools {
     public static void preInit(FMLPreInitializationEvent event) {}
 
     @Mod.EventHandler
-    public static void init(FMLInitializationEvent event) {}
+    public static void init(FMLInitializationEvent event) {
+
+        ModRecipes.init();
+    }
 
     @Mod.EventHandler
     public static void postInit(FMLPostInitializationEvent event) {}
