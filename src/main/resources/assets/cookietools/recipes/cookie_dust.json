@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+
+  "key": {
+    "C": {
+      "item": "cookietools:cookie_powder"
+    }
+  },
+
+  "result": {
+    "item": "cookietools:cookie_dust",
+    "count": 4
+  }
+}
