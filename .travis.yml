@@ -1,0 +1,15 @@
+language: java
+jdk: oraclejdk8
+
+before_install: chmod +x gradlew
+
+install: ./gradlew setupCIWorkspace
+
+script: ./gradlew build
+
+deploy:
+  provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: ${GITHUB_TOKEN}
+  file: build/libs/*.jar
