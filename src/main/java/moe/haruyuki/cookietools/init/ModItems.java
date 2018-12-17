@@ -22,6 +22,7 @@ public class ModItems {
 
     // Tools
     public static final ItemPickaxe COOKIE_PICKAXE = new ToolPickaxe("cookie_pickaxe", MATERIAL_COOKIE);
+    public static final ItemSpade COOKIE_SHOVEL = new ToolSpade("cookie_shovel", MATERIAL_COOKIE);
     public static final ItemSword COOKIE_SWORD = new ToolSword("cookie_sword", MATERIAL_COOKIE);
 
 }
