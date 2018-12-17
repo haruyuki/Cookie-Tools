@@ -21,6 +21,7 @@ public class ModItems {
     public static final Item COOKIE_INGOT = new ItemBase("cookie_ingot");
 
     // Tools
+    public static final ItemAxe COOKIE_AXE = new ToolAxe("cookie_axe", MATERIAL_COOKIE);
     public static final ItemHoe COOKIE_HOE = new ToolHoe("cookie_hoe", MATERIAL_COOKIE);
     public static final ItemPickaxe COOKIE_PICKAXE = new ToolPickaxe("cookie_pickaxe", MATERIAL_COOKIE);
     public static final ItemSpade COOKIE_SHOVEL = new ToolSpade("cookie_shovel", MATERIAL_COOKIE);
