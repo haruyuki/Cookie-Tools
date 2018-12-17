@@ -9,7 +9,7 @@
   "updateUrl": "",
   "authorList": ["Haruyuki"],
   "credits": "",
-  "logoFile": "",
+  "logoFile": "logo.png",
   "dependencies": []
 }
 ]
