@@ -14,7 +14,7 @@ public class CookieDirt extends BlockBase {
         setSoundType(SoundType.GROUND);
         setHardness(0.5F);
         setResistance(2.5F);
-        setHarvestLevel("spade", 0);
+        setHarvestLevel("shovel", 1);
 //        setLightLevel(0.0F);
 //        setLightOpacity(0);
 //        setBlockUnbreakable();
