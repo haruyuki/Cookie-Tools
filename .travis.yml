@@ -26,6 +26,6 @@ deploy:
   skip_cleanup: true
   api_key:
     secure: ${GITHUB_TOKEN}
-  file: 'build/libs/Cookie-Tools-$TRAVIS_TAG.jar'
+  file: 'build/libs/CookieTools-$TRAVIS_TAG.jar'
   on:
     tags: true
