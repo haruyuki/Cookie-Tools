@@ -6,4 +6,6 @@ tile.cookie_dirt.name=Cookie Dirt
 item.cookie_powder.name=Cookie Powder
 item.cookie_dust.name=Cookie Dust
 item.cookie_ingot.name=Cookie Ingot
+
+// Tools
 item.cookie_pickaxe.name=Cookie Pickaxe

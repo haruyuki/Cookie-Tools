@@ -1,7 +1,7 @@
 package moe.haruyuki.cookietools.init;
 
 import moe.haruyuki.cookietools.items.ItemBase;
-import moe.haruyuki.cookietools.items.tools.ToolPickaxe;
+import moe.haruyuki.cookietools.items.tools.*;
 import net.minecraft.item.*;
 import net.minecraftforge.common.util.EnumHelper;
 
