@@ -12,4 +12,5 @@ public class ModItems {
 
     public static final Item COOKIE_POWDER = new ItemBase("cookie_powder");
     public static final Item COOKIE_DUST = new ItemBase("cookie_dust");
+    public static final Item COOKIE_INGOT = new ItemBase("cookie_ingot");
 }
