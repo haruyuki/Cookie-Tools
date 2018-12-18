@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients": [{
+      "item": "cookietools_cookie_powder"
+  }],
+
+  "result": {
+    "item": "minecraft:cookie",
+    "count": 1
+  }
+}
