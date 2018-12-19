@@ -1,0 +1,15 @@
+// Blocks
+tile.cookie_block.name=Koekjes Blok
+tile.cookie_dirt.name=Koekjes Modder
+
+// Items
+item.cookie_powder.name=Koekjes Poeder
+item.cookie_dust.name=Koekjes Stof
+item.cookie_ingot.name=Koekjes Bar
+
+// Tools
+item.cookie_axe.name=Koekjes Bijl
+item.cookie_hoe.name=Koekjes Schoffel
+item.cookie_pickaxe.name=Koekjes Pickhouweel
+item.cookie_shovel.name=Koekjes Schop
+item.cookie_sword.name=Koekjes Zwaard
